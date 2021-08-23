@@ -15,7 +15,7 @@ Equipamentos: <input type="text" name="aparelho" value="">
         $y = $_POST['hora'];
         $x= $_POST['watt'];
         $total = $x*$y;
-        $v = $total*10;
+        $v = $total*5;
     
         echo "<hr>";
         echo "gasto:";
