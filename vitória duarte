@@ -22,7 +22,7 @@ Equipamentos: <input type="text" name="aparelho" value="">
         print_r( $total); echo "Kw/H";
         echo "<hr>";
         echo "consumo no mes: ";  print_r( $v); " Kw/H";
-        echo "<hr>";
+       
 
         $equipa = $_POST['aparelho'];
         print_r( $equipa);
@@ -31,7 +31,7 @@ Equipamentos: <input type="text" name="aparelho" value="">
 
         $fo= fopen('prova.txt', 'teste');
 
-        fwrite($fo, var_export("Eletrodomestico: ", true));
+        fwrite($fo, var_export("Eletrodomesticos: ", true));
 
         fwrite($fo, var_export("gasto: ", true));
 
